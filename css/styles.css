@@ -23,7 +23,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 90px;
+    scroll-padding-top: 20px;
 }
 
 body {
@@ -139,25 +139,23 @@ a:focus-visible {
 .main-navigation {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 10px 28px;
     padding: 18px 24px;
-    background-color: var(--paper);
+    background-color: var(--dark);
     border-bottom: 1px solid var(--border);
-    position: sticky;
-    top: 0;
-    z-index: 10;
 }
 
 .main-navigation a {
-    color: var(--dark);
+    color: var(--paper);
     font-size: 0.95rem;
     font-weight: 600;
     text-decoration: none;
 }
 
 .main-navigation a:hover {
-    color: var(--terracotta);
+    color: #E8B39C;
 }
 
 /* Shared Section Styles */
